@@ -1,0 +1,911 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Sony-Logo {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+}
+
+/* Navigation Menu */
+
+.Playstation-logo {
+  background-color: black;
+}
+
+.arrow {
+  border: solid rgb(110, 110, 110);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+}
+
+.arrow:hover {
+  border: solid rgb(112, 80, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+}
+.down {
+  transform: rotate(45deg);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+}
+
+.logoMenu-container {
+  display: flex;
+}
+
+.signSearch-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-list a:hover {
+  color: blue;
+}
+
+.menu-container li {
+  list-style: none;
+}
+
+.sign-in-button {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 3px 10px;
+}
+
+.sign-in-button:hover {
+  cursor: pointer;
+  background: grey;
+}
+
+/* Gaming Section */
+
+.MGS5-section {
+  background-color: black;
+  display: flex;
+}
+
+.MGS5-container {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  margin: 0 auto;
+  width: 1900px;
+  padding: 0 30px;
+}
+
+.image {
+  max-width: 450px;
+  height: auto;
+  overflow: hidden;
+  align-self: center;
+}
+
+.image2 {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 3px red;
+  overflow: hidden;
+  /* object-fit:contain; */
+}
+
+.item {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.item-1 {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px rgb(0, 0, 0);
+  /* padding-left:70px; */
+}
+
+.item-2 {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  border: solid 1px rgb(0, 0, 0);
+  /* object-fit:contain; */
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 50%;
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.findOutMore {
+  /* height: 35px;
+  width: 135px; */
+  /* display: inline-block; */
+  padding: 10px 15px;
+  border-radius: 30px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid 2px black;
+  outline: solid 2px transparent;
+}
+
+.findOutMore:hover {
+  outline: solid 2px white;
+  cursor: pointer;
+}
+
+/* MGS5 box container selection  */
+
+.MGS5-box-selection {
+  background-color: white;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  gap: 20px;
+}
+
+.box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 25px;
+}
+
+/* .box {
+    width:400px;
+    height:auto;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow: 0 0 25px;
+    border:solid 5px black;
+} */
+
+/* This month on playstation  */
+
+/* .TMOP_Image_box {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    border-radius:20px;
+} */
+
+.TMOP_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TMOP_Image_box {
+  height: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 25px;
+}
+
+.TMOP_boxContainer {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  /* margin-bottom:50px; */
+}
+
+.TMOP_backgroundContainer {
+  display: flex;
+  background: linear-gradient(45deg, rgb(87, 23, 160), rgb(6, 6, 59));
+}
+
+.TMOP_Image_box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.TMOP_Container {
+  display: flex;
+  flex-direction: column;
+  width: 1900px;
+  margin: 50px auto;
+  padding: 0 30px;
+  gap: 60px;
+}
+
+.TMOP_detailsContainer {
+  width: 30%;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.onPlaystation {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.TMOP_detailsContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: white;
+}
+
+.TMOP_box p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+  color: white;
+}
+
+.TMOP_p {
+  color: grey;
+  margin-bottom: 40px;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  color: rgb(177, 177, 177);
+}
+
+/* PS5 intro section  */
+
+.PS5_sectionContainer {
+  display: flex;
+  /* width:1900px; */
+  margin: 0px auto;
+  flex-direction: column;
+  /* border: solid 3px black; */
+}
+
+.PS5_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.PS5_asideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 10px;
+  padding-bottom: 3vh;
+}
+
+.PS5_imagebox {
+  /* max-width:450px;
+    max-height:300px; */
+  overflow: hidden;
+  /* border:solid 3px black; */
+  margin: 0 auto;
+  flex-basis: 100px;
+}
+
+.PS5_box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgb(0, 76, 175);
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  /* flex-basis:200px; */
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: rgb(43, 43, 43);
+  padding: 25px;
+}
+
+.PS5_imagebox img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.PS5_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.PS5_title {
+  text-transform: uppercase;
+  color: rgb(0, 153, 255);
+  letter-spacing: 0.25rem;
+}
+
+.PS5_Intro {
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.PS5_description {
+  color: rgb(100, 100, 100);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.PS5_consoleImage {
+  height: 100%;
+  max-width: 500px;
+}
+
+.PS5_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PS5_details h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+.PS5_item1 {
+  width: 30%;
+  /* margin-right:200px; */
+}
+
+.learnMore {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(43, 82, 255);
+  border: solid white 2px;
+  margin-top: 40px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  outline: 3px solid transparent;
+  cursor: pointer;
+  /* transition: border 0.1s; */
+}
+
+.learnMore:hover {
+  width: 150px;
+  outline: 2px solid rgb(43, 82, 255);
+}
+
+.container {
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  background-image: url(Images/Grandtorismo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.GT_container {
+  position: relative;
+  /* background-color: black; */
+  position: center;
+  width: 1900px;
+  max-height: 50vh;
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+  gap: 30px;
+  /* background-image: url(Images/Grandtorismo.jpg); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 3vh;
+  padding-left: 4vw;
+}
+
+.GT_title {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.GT_details {
+  color: white;
+  font-size: 1.2rem;
+  width: 35%;
+}
+.GT_logo {
+  align-self: flex-start;
+  height: 15vh;
+}
+
+.GT_button {
+  width: 175px;
+  border-radius: 40px;
+  height: 50px;
+  color: white;
+  background-color: orangered;
+  border: solid 2px black;
+  outline: 3px solid transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.GT_button:hover {
+  /* position: absolute; */
+  /* box-sizing: border-box; */
+  /* margin: 10px; */
+  border: solid 2px black;
+  outline: solid orangered 2px;
+}
+
+/* New Releases Section ---------------------------------------------------------- */
+
+.NR_container {
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
+  width: 1900px;
+  /* align-items: Center; */
+}
+
+.NR_mainContainer {
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3vh;
+}
+
+.NR_headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  padding: 0 2vw;
+}
+
+.NR_imageBox {
+  min-height: 10vh;
+  min-width: 10vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.NR_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.NR_titleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.NR_container h3 {
+  font-size: 1.9rem;
+}
+
+.NR_container h4 {
+  font-size: 2rem;
+  font-weight: 1;
+}
+
+.leftButton,
+.rightButton {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  font-size: 3rem;
+  background-color: rgb(248, 248, 248);
+  margin: 3px;
+  text-align: center;
+  border: solid 2px black;
+  outline: solid 2px transparent;
+}
+
+.leftButton:hover,
+.rightButton:hover {
+  cursor: pointer;
+  outline: rgb(248, 248, 248) solid 2px;
+}
+
+.leftButton::after {
+  width: 50px;
+  height: 50px;
+  border-right: solid 2px black;
+  border-left: solid 2x black;
+}
+
+.NR_boxContainer {
+  display: flex;
+  justify-content: center;
+  /* padding: 2vh 0; */
+  background-color: black;
+  overflow: hidden;
+}
+
+.NR_box {
+  /* border: solid 3px rgb(255, 255, 255); */
+  max-width: 10vw;
+  margin: 0 2vw;
+}
+
+.NR_box p {
+  margin-top: 0.8vh;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Explore Playstion Section -----------------------------------------  */
+
+.PS4_sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  max-width: 1900px;
+  margin: 3vh auto;
+  padding: 0 3vw;
+}
+
+.PS4_sectionContainer h1 {
+  font-size: 1.8em;
+  font-weight: 100;
+  color: black;
+}
+
+.PS4_itemContainer {
+  display: flex;
+  /* justify-content: center; */
+  gap: 5vw;
+  text-align: left;
+}
+
+.PS4_imageBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.PS4_imageBox {
+  min-height: 5vh;
+  /* border: solid black 3px; */
+}
+
+.PS4_box {
+  display: flex;
+  flex-direction: column;
+  align-items: bottom;
+  justify-content: flex-end;
+  min-width: 15vw;
+  align-self: bottom;
+  gap: 20px;
+}
+
+.PS4_sectionContainer header p {
+  text-align: center;
+  margin-top: 1vh;
+}
+
+/* Playstation Plus Section ------------------------------------- */
+
+.psPlus_mainContainer {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.psPlus_container {
+  margin: 0 auto;
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  padding: 0 3vw;
+  max-width: 1900px;
+  /* min-height: 20vh; */
+  /* background-image: url(Images/ps-plus-monthly-games-featured-image-block-01-22nov21$en.png);
+  background-position: top left;
+  background-repeat: no-repeat; */
+}
+
+.psPlus_imageBox {
+  max-height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.psPluslogo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.psPlus_item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50%;
+  gap: 1.5vh;
+}
+
+.ExploreMoreOptions {
+  /* display: flex; */
+  height: 60px;
+  width: 350px;
+  border-radius: 50px;
+  font-size: 1em;
+  font-weight: 600;
+  border: solid 2px black;
+  outline: solid 2px transparent;
+  cursor: pointer;
+}
+
+.ExploreMoreOptions:hover {
+  outline: solid 2px white;
+}
+
+/* New Savings on Playstation Store Section ---------------------------- */
+
+.newSavings_container {
+  margin: 3vh auto;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  color: grey;
+  line-height: 2rem;
+  max-width: 1900px;
+}
+
+.newSavings_container h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.newSavings_imageContainer {
+  margin-top: 50px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.newSavings_imageContainer img {
+  max-height: 30vh;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.newSavings_heading {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Playstation now section ------------------------------------ */
+
+.playstationNow_sectionConatiner {
+  background: linear-gradient(135deg, rgb(0, 18, 41), rgb(5, 5, 107));
+  padding: 90px 0;
+}
+
+.playstationNow_container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.playstationNow_item1 {
+  /* display: flex; */
+  flex-direction: column;
+  width: 50%;
+  line-height: 28px;
+  font-size: 18px;
+  padding-left: 5vw;
+}
+
+.playstationNow_item1 img {
+  max-height: 140px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.playstationNow_item2 {
+  display: flex;
+}
+.playstationNow_item2 img {
+  max-height: 30vh;
+  object-fit: cover;
+}
+
+.ExplorePSN_button {
+  padding: 15px;
+  border-radius: 40px;
+  border: 2px solid black;
+  outline: 2px solid transparent;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.ExplorePSN_button:hover {
+  outline: 2px solid white;
+}
+
+/* ________________________ social media  */
+
+.socialMedia_container {
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: Center;
+  gap: 80px;
+  margin-top: 70px;
+  margin-bottom: 135px;
+}
+
+.socialMedia_container h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: rgb(92, 92, 92);
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.socialMedia_container img {
+  height: 125px;
+  margin: 0 10px;
+}
+
+/* _______________________________________footer  */
+
+.footer_background {
+  background: rgb(22, 62, 173);
+  padding: 60px 30px;
+}
+
+.footer_container {
+  display: flex;
+  color: white;
+  max-width: 1900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.globe_logo {
+  height: 30px;
+}
+
+.footer_item1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.footer_lists {
+  display: flex;
+}
+
+.countryRegions {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.footer_logo {
+  height: 100px;
+  align-self: flex-start;
+  /* align-self: flex-start; */
+}
+
+.footer_Sonylogo {
+  height: 60px;
+  /* width: 60px; */
+  align-self: flex-start;
+}
+
+.esrbLogo {
+  height: 60px;
+}
+
+.esrb_section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_lists li {
+  list-style: none;
+  cursor: pointer;
+  margin: 20px 50px;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
