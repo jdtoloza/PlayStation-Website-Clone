@@ -594,6 +594,7 @@ img {
   /* padding: 2vh 0; */
   background-color: black;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .NR_box {
